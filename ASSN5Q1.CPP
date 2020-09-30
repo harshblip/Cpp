@@ -29,5 +29,18 @@ cin>>n;
 int a=0,b=1,c=1,ch;
 cout<<"\n1.fibonacci series\n2.tribonacci series\n";
 cin>>ch;
+ switch(ch)
+  { case 1:
+     {fibo(n,a,b);
+     break;
+     }
+    case 2:
+     {fibo2(n,a,b,c);
+     break;
+     }
+    default :
+     {cout<<"wrong choice\n";
+     }
+  }
 getch();
 }
