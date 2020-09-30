@@ -13,7 +13,18 @@ else
     y=a;
  }
 int k;
-
+for(int i=y;i<=x;i++)
+  {
+    for(int j=2;j<i/2;j++)
+    {
+       if(i%j==0)
+       {
+       f=1;
+       break;}
+    }
+    if(f==0)
+    ctr++;
+  }
   cout<<ctr;
 return ctr;
 }
