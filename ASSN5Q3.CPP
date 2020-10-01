@@ -19,7 +19,9 @@ void main()
 {clrscr();
 int n;
 double x;
- 
+ cout<<"enter the value of n and x:\n";
+cin>>n>>x;
+cout<<"the sum of the serires is:\n"<<sumseq(n,x);
 getch();
 }
 
